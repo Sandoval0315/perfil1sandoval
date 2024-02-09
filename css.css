@@ -61,3 +61,36 @@ body {
     bottom: 0;
     width: 100%;
   }
+
+  .empresassv-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .empresassv {
+    width: 250px;
+    background-color: #ffffff;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .empresassv img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .empresassv h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .empresassv p {
+    font-size: 14px;
+  }
