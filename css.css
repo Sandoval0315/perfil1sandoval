@@ -8,7 +8,7 @@ body {
   
   .header {
     background-color: #1e222c;
-    padding: 1em 0;
+    padding: 1em ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,5 +92,37 @@ body {
   }
   
   .empresassv p {
+    font-size: 14px;
+  }
+
+  .emprendedores-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .emprendedor {
+    width: 300px;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .emprendedor img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .emprendedor h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .emprendedor p {
     font-size: 14px;
   }
