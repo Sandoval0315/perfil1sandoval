@@ -99,21 +99,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px;
+    margin: 10px 100px 100px 100px;
   }
   
   .emprendedor {
     width: 300px;
+    color: black;
     background-color: #ffffff;
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
   .emprendedor img {
-    max-width: 100%;
+    max-width: 70%;
     border-radius: 8px;
     margin-bottom: 10px;
   }
